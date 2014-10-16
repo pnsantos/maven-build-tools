@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+    "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+    "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+
+<suppressions>
+    <!-- Tone down checks for test files -->
+    <!-- <suppress checks="." files=".*[\\/]src[\\/]test[\\/]"/> -->
+    <suppress checks="AvoidStarImport" files=".*[\\/]src[\\/]test[\\/]"/>
+    <suppress checks="Indentation" files=".*[\\/]src[\\/]test[\\/]"/>
+    <suppress checks="MagicNumber" files=".*[\\/]src[\\/]test[\\/]"/>
+    <suppress checks="MethodName" files=".*[\\/]src[\\/]test[\\/]"/>
+</suppressions>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- See http://findbugs.sourceforge.net/bugDescriptions.html for valid pattern values -->
+<FindBugsFilter>
+    <!-- False positive -->
+<!--    <Match>
+        <Class name="pt.ptinovacao.personas.ws.soap.handler.MessageLoggingHandler"/>
+        <Method name="getMessageEncoding" />
+        <Bug pattern="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE"/>
+    </Match>-->
+</FindBugsFilter>
