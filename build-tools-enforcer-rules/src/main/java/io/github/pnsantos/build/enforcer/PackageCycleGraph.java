@@ -1,18 +1,21 @@
-package pt.ptinovacao.iam.build.enforcer;
+package io.github.pnsantos.build.enforcer;
 
-import pt.ptinovacao.iam.build.enforcer.util.Lists;
+import io.github.pnsantos.build.enforcer.util.Lists;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
+
 import org.jgrapht.DirectedGraph;
 import org.jgrapht.alg.StrongConnectivityInspector;
 import org.jgrapht.graph.DefaultDirectedGraph;
 import org.jgrapht.graph.DefaultEdge;
+
 import jdepend.framework.JavaPackage;
-import pt.ptinovacao.iam.build.enforcer.comparator.JavaPackageComparator;
-import pt.ptinovacao.iam.build.enforcer.comparator.JavaPackageListComparator;
+import io.github.pnsantos.build.enforcer.comparator.JavaPackageComparator;
+import io.github.pnsantos.build.enforcer.comparator.JavaPackageListComparator;
 
 public final class PackageCycleGraph {
 

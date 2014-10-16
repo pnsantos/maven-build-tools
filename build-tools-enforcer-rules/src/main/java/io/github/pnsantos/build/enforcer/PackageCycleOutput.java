@@ -1,12 +1,14 @@
-package pt.ptinovacao.iam.build.enforcer;
+package io.github.pnsantos.build.enforcer;
 
-import pt.ptinovacao.iam.build.enforcer.util.Lists;
+import io.github.pnsantos.build.enforcer.util.Lists;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
 import jdepend.framework.JavaClass;
 import jdepend.framework.JavaPackage;
-import pt.ptinovacao.iam.build.enforcer.comparator.JavaClassComparator;
+import io.github.pnsantos.build.enforcer.comparator.JavaClassComparator;
 
 public final class PackageCycleOutput {
 

@@ -1,4 +1,4 @@
-package pt.ptinovacao.iam.build.enforcer.util;
+package io.github.pnsantos.build.enforcer.util;
 
 import java.util.ArrayList;
 import java.util.Collection;

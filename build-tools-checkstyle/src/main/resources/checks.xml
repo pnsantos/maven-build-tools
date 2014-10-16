@@ -3,7 +3,7 @@
 
 <!--
 
-  IAM checkstyle configuration based on the "official" one with some
+  Checkstyle configuration based on the "official" one with some
   minor modifications and tweaks.
 
   The "official" one is based on:
@@ -201,7 +201,7 @@
         <module name="MemberName"/>
         <module name="MethodName"/>
         <module name="PackageName">
-            <property name="format" value="^(pt\.ptinovacao)+(\.[a-zA-Z][a-zA-Z0-9]*)*$"/>
+            <property name="format" value="^([a-z])+(\.[a-z]*)*$"/>
         </module>
         <module name="ParameterName"/>
         <module name="StaticVariableName"/>

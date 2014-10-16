@@ -1,4 +1,4 @@
-package pt.ptinovacao.iam.build.enforcer.comparator;
+package io.github.pnsantos.build.enforcer.comparator;
 
 import java.util.Comparator;
 import java.util.List;

@@ -1,4 +1,4 @@
-package pt.ptinovacao.iam.build.enforcer;
+package io.github.pnsantos.build.enforcer;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,14 +6,16 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
+
 import org.apache.maven.enforcer.rule.api.EnforcerRule;
 import org.apache.maven.enforcer.rule.api.EnforcerRuleException;
 import org.apache.maven.enforcer.rule.api.EnforcerRuleHelper;
 import org.apache.maven.plugin.logging.Log;
 import org.codehaus.plexus.component.configurator.expression.ExpressionEvaluationException;
+
 import jdepend.framework.JDepend;
 import jdepend.framework.JavaPackage;
-import pt.ptinovacao.iam.build.enforcer.util.Lists;
+import io.github.pnsantos.build.enforcer.util.Lists;
 
 public final class NoPackageCyclesRule implements EnforcerRule {
 

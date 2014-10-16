@@ -3,8 +3,8 @@
 <FindBugsFilter>
     <!-- False positive -->
 <!--    <Match>
-        <Class name="pt.ptinovacao.personas.ws.soap.handler.MessageLoggingHandler"/>
-        <Method name="getMessageEncoding" />
+        <Class name="org.example.AClass"/>
+        <Method name="aMethod" />
         <Bug pattern="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE"/>
     </Match>-->
 </FindBugsFilter>
